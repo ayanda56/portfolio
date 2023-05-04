@@ -1,0 +1,37 @@
+header{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{background-color: #2d493a;}
+header{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: #727c5e;
+    display:flex;
+    
+    align-items: center;
+
+    z-index: 100%;
+}
+.logo { font-size: 25px;
+color: hsl(150, 12%, 97%);
+text-decoration: none;
+font-weight: 600;
+}
+.navbar a { 
+font-size: 18px;
+color: aliceblue;
+text-decoration: none;
+font-weight: 500;
+
+ transition: 3s;
+}
+.navbar a :hover{
+    color :#00ab
+}
+#picka{
+    position: relative; left: 1000px;
+}
